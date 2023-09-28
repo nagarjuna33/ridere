@@ -1,0 +1,32 @@
+footer {
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 30px;
+}
+
+.HeroLogoImage{
+width: 600px;
+margin-top: 30px;
+
+}
+
+.rftext{
+  text-decoration: none;
+  /* background-image: linear-gradient(to bottom, yellow, red)!important; */
+-webkit-background-clip: text; /* For Safari/Chrome */
+background-clip: text;
+color: rgba(1, 1, 1, 0.5) !important;
+background-color: rgba(255, 255, 255, 0.5) !important;
+cursor: pointer;
+}
+.fmargin{
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.footerbg{
+  background-image: url("./Images/uuunion.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    z-index: -3;
+}

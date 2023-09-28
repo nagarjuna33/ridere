@@ -1,0 +1,158 @@
+/* .Main-container-Services{
+    height: 100vh;
+} */
+/* background-size: cover; */
+
+.row-main1 .row-main2 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#RideServices-container1{
+    display: flex;
+    justify-content: center;
+}
+
+#rideImage1 {
+    width: 600px;
+    filter: drop-shadow(0.35rem 0.35rem 0.6rem rgba(0, 0, 0, 0.5));
+
+}
+
+#rideImage2 {
+    width: 600px;
+    filter: drop-shadow(0.35rem 0.35rem 0.6rem rgba(0, 0, 0, 0.5));
+}
+.Image-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+ #rideImage2 {
+       
+      margin-top: -15%;  
+      margin-bottom: auto;
+    }
+
+
+
+#RideServices-Title {
+    white-space: pre-wrap;
+    overflow: visible;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Inter", "Inter Placeholder", sans-serif;
+    color: #333333;
+    font-size: 50px;
+    letter-spacing: -2px;
+    line-height: 1;
+    text-align: center;
+}
+
+#RideServices-Descripion {
+    height: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    word-break: break-word;
+    overflow: visible;
+    font-weight: 500;
+    font-style: normal;
+    font-family: "Inter", sans-serif;
+    color: #888888;
+    font-size: 24px;
+    letter-spacing: -0.5px;
+    line-height: 1.5;
+    text-align: center;
+}
+#ComingSoon {
+    box-sizing: border-box;
+    width: min-content;
+    padding: 15px 25px;
+    box-shadow: 0px 0.7065919983928324px 0.7065919983928324px -0.625px rgba(0, 0, 0, 0.15), 0px 1.8065619053231785px 1.8065619053231785px -1.25px rgba(0, 0, 0, 0.14398), 0px 3.6217592146567767px 3.6217592146567767px -1.875px rgba(0, 0, 0, 0.13793), 0px 6.8655999097303715px 6.8655999097303715px -2.5px rgba(0, 0, 0, 0.12711), 0px 13.646761411524492px 13.646761411524492px -3.125px rgba(0, 0, 0, 0.10451), 0px 30px 30px -3.75px rgba(0, 0, 0, 0.05);
+    background-color: #222222;
+    border-radius: 8px;
+    height: auto;
+    white-space: pre;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Inter", "Inter Placeholder", sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+#RideServices-Buttons {
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+#LearnMore{
+    text-align: center;
+}
+
+/* ====== MEDIA QUERIES  ====== */
+
+
+@media (min-width: 770px) {
+
+    /* Define the default order for larger screens */
+    .RideServices-container2 {
+    
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+    .RideServices-container1{
+       
+        margin-top: auto;
+      margin-bottom: auto;
+    }
+    
+    #RideServices-Buttons{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+/* Media query for screens with a width of 768px or less */
+@media (max-width: 769px) {
+
+    /* Reorder for smaller screens */
+    .RideServices-container2 {
+        order: 2;
+    }
+
+    .Image-1 {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Image-2 {
+        order: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    #rideImage1 {
+        flex: 1;
+        order: 2;
+        width: 315px;
+       
+    }
+
+    #rideImage2 {
+        width: 315px;
+        margin-top: -10%;
+    }
+}

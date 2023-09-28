@@ -1,0 +1,143 @@
+/* BackgroundSection.css */
+
+/* .background-section {
+    height: 75vh;
+    background-image: url("./images/78786.jpg");
+    background-size: cover;
+    background-position: center 30%; 
+    color: white;
+    padding: 100px 0;
+} */
+
+/* .background-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+
+} */
+
+.background-section {
+    position: relative; /* Set parent to relative positioning */
+    height: 100vh;
+    background-image: url("./Images/78786.jpg");
+    background-size: cover;
+    background-position: center 30%;
+    color: white;
+    padding: 100px 0;
+}
+
+.backgroundimage {
+    position: absolute;
+    top:30px;
+    right: 0px;
+    width: 900px;
+    height: auto;
+    z-index: 2;
+}
+.HeroLogoImage{
+    width: 600px;
+    margin-top: 60px;
+    filter: drop-shadow(0.25rem 0.25rem 0.30rem rgba(0, 0, 0, 0.30));
+}
+/* Other styles... */
+
+/* Animation (if needed) */
+@keyframes slideImage {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+/* @media (max-width: 450px) {
+     .background-section {
+        height: 95vh;
+    }
+    .background-image {
+        right: 0;
+        transform: translateX(0);
+        width: 400px;
+        top: 200px;
+        animation: slideImage 5s ease;
+    }
+
+} */
+
+
+.background-section p {
+    font-size: 1.2rem;
+}
+.hcolor{
+    font-size: 90px;
+    font-family: Verdana, sans-serif;
+    color: rgb(255,93,38);
+
+}
+.tcolor{
+    color:rgb(253,178,49);
+}
+.pcolor{
+    color:black;
+}
+/* .background-image {
+    position: absolute;
+    bottom: 80px;
+    right: 0px; 
+    width: 600px;
+    height: auto; 
+    z-index: 2;
+} */
+
+/* @keyframes slide {
+  from {
+    transform: translateX(100%); 
+  }
+  to {
+    transform: translateX(0); 
+  }
+}
+  
+
+@media (max-width: 450px) {
+    .background-image {
+        right: 0; 
+        transform: translateX(0);
+        width: 400px;
+        top: 200px;
+        animation: slideMobile 5s ease; 
+    }
+
+    @keyframes slideMobile {
+        from {
+            left: 100%; 
+        }
+        to {
+            left: 0; 
+        }
+    }
+
+    .background-section {
+        height: 60vh;
+        background-size: cover;
+        background-position: center 30%; 
+        color: white;
+        padding: 100px 0;
+    }
+}
+ */
+
+ @media screen and (min-width: 320px) and (max-width: 425px) {
+    .background-section {
+        height: 100vh;
+    }
+    .background-image {
+        top:-20px !important;
+        /* right: 0px; */
+        transform: translateX(0);
+        width: 400px;
+        top: 200px;
+        animation: slideImage 5s ease;
+    }
+  }
+  
